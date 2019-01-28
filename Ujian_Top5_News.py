@@ -30,6 +30,7 @@ while True:
             print(i+1," - ",isiData['articles'][i]['title'])
     except:
         print("Input Salah")
-    lagi=input("Cek Lagi? Ketik y/n lalu Enter ")
-    if(lagi=="n"):
+    print(" ")
+    lagi=input("Cek Lagi? y / n ")
+    if(lagi=="n" or lagi=="N"):
         break
